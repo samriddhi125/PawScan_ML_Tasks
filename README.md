@@ -22,10 +22,10 @@ This project utilizes several machine learning algorithms to build predictive mo
 ### Best Performing Model
 The LightGBM model achieved the best classification accuracy in predicting student dropouts and academic success. Key metrics for LightGBM are:
 
-- **Accuracy**: [accuracy]
-- **Precision**: [precision]
-- **Recall**: [recall]
-- **F1-score**: [F1-score]
+- **Accuracy**: 83.33%
+- **Precision**: 90%
+- **Recall**: 83%
+- **F1-score**: 86%
 
 ### Output
 The predictions made by the LightGBM model are stored in the `submission.csv` file.
