@@ -12,11 +12,11 @@ The original dataset was obtained from [[kaggle](https://www.kaggle.com/competit
 ## Methods
 This project utilizes several machine learning algorithms to build predictive models:
 
-- Decision Tree (DT)
-- Random Forest (RF)
-- XGBoost
-- CatBoost
-- LightGBM
+- **Decision Tree (DT)**: A simple, interpretable model that splits the data into subsets based on feature values, forming a tree structure for decision making.
+- **Random Forest (RF)**: An ensemble of decision trees that improves prediction accuracy by averaging the predictions of multiple trees to reduce overfitting.
+- **XGBoost**: An optimized gradient boosting algorithm that builds sequential trees, using the errors of the previous trees to correct and improve model performance.
+- **CatBoost**: A gradient boosting algorithm specifically designed to handle categorical features more effectively and prevent overfitting.
+- **LightGBM**: A fast, distributed gradient boosting framework that uses a histogram-based approach for efficient training and improved accuracy.
 
 ## Results
 ### Best Performing Model
